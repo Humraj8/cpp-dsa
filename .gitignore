@@ -1,0 +1,12 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code local settings
+.vscode/
+
+# Ignore compiled binary executables
+*.out
+*.dSYM/
+s1_01_hello
+s1_02_sum
+s1_03_arithmetic
