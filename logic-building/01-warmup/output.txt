@@ -1,3 +1,2 @@
-12.56
-hey inteligent kid
-12.56
+area of the rectangle is :8
+perimeter of the rectangle is :12
