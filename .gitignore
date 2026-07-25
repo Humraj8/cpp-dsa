@@ -7,6 +7,9 @@
 # Ignore compiled binary executables
 *.out
 *.dSYM/
-s1_01_hello
-s1_02_sum
-s1_03_arithmetic
+
+# 1. Block EVERYTHING that starts with "s1_"
+s1_*
+
+# 2. EXCEPTION: Let all C++ source code files pass through
+!*.cpp
