@@ -1,2 +1,2 @@
-area of the rectangle is :8
-perimeter of the rectangle is :12
+3
+2
