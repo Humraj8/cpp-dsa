@@ -1,2 +1,3 @@
-5
-4
+the conversion from seconds to hours ,minute ,seconds is : 1 hours
+0minute 
+12seconds

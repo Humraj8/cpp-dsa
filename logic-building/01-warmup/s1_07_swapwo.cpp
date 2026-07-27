@@ -2,10 +2,25 @@
 using namespace std;
 int main(){
 //Write a program to swap two numbers without using a third variable.
+
+/* i tried first 
+int a=4;
+
+int b=5;
+
+cout<<"a :"<<b<<endl;
+
+cout<<"b :"<<a; */
+
+
+
 int a=4;
 int b=5;
 a=a+b;
-/*b=b+a;
+
+/*
+tried second
+b=b+a;
 a=(9-4);
 b=(9-5);*/
 
