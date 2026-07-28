@@ -6,7 +6,7 @@ char ch; // User inputs 'A'
 
 cin>>ch; // 'A' gets turned into 'a', and stored back into 'ch'
 
-ch= tolower(ch);
+ch= tolower(ch);// Transformer (changes the character)
 
 if (ch == 'a'||ch == 'e' ||ch == 'i' ||ch == 'o'|| ch == 'u'){
     // Since ch is now 'a', it matches 'a' here and prints Vowel!
