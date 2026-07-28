@@ -1,24 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
-//⁠Write a program to read three numbers and find the largest among them.
-float num1,num2,num3;
-cin>>num1>>num2>>num3;
-if (num1>num2 && num1>num3){
-    cout<<"num1 is greatest";
+int main()
+{
+int year;
+cin>>year;
+if(year % 4 == 0){
 
+if(year % 400 == 0){
+ cout<<"the year is leap year";
 }
-else if(num2>num1 && num2>num3){
 
-cout<<"num2 is greatest ";
-
-}
 else{
+cout<<"the year is not leap year";}
 
-    cout<<"num3 is greatest";
-}
+ }
 
 
 
-    return 0;
+return 0;
 }
