@@ -8,8 +8,8 @@
 *.out
 *.dSYM/
 
-# 1. Block EVERYTHING that starts with "s1_"
-s1_*
+# 1. Block EVERYTHING that starts with "p" or "s" inside any folder
+**/[ps][0-9]*
 
 # 2. EXCEPTION: Let all C++ source code files pass through
-!*.cpp
+!**/*.cpp
