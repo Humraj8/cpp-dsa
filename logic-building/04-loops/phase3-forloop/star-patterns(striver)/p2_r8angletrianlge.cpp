@@ -16,9 +16,16 @@ void printr8angle(int n){
 
 }
 int main(){
-int n;
-cin>>n;
-printr8angle(n);
+int testc;
+cin>>testc;
+for (int i = 0; i < testc; i++)
+{
+    int n;
+    cin>>n;
+    printr8angle(n);
+}
+
+
 
     return 0;
 }
