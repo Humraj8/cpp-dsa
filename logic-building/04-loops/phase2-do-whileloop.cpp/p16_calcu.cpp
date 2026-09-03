@@ -28,7 +28,8 @@ case 3:
     cout<<"multiply.  :"<<(a*b)<<endl;
     break;
 case 4:
-    cout<<"div  :"<<(a/b)<<endl;
+   if(b==0) cout<<"invalid operations";
+    else cout<<"div  :"<<(a/b)<<endl;
     break;
 case 5:
     cout<<"Exiting"<<endl;
