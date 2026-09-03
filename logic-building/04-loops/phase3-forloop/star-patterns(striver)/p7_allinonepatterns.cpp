@@ -46,8 +46,55 @@ void print8(int n){
        cout<<endl;
     }
     
+    
+}
+void print9(int n){
+//sidha triangle
+ for (int i =0 ; i < n; i++)
+{
+    //for space
+   for (int j =0; j<(n-i-1) ; j++)
+   {
+    cout<<" ";
+   }
+  
+
+//for star patterns
+for (int k = 0; k<(2*i+1) ; k++)
+  {
+    cout<<"*";
+   }
+//for space 
+for (int j = 0; j<(n-i-1) ; j++)
+   {
+    cout<<" ";
+   }
+   cout<<endl;
 }
 
+//opposite of triangle
+for (int i = 0; i < n; i++)
+    {
+       for (int j = 0; j < i; j++)
+       {
+        cout<<" ";
+       }
+
+       for (int k = 0; k < ((2*n) -1 - (2*i)); k++)
+       {
+        cout<<"*";
+       }
+
+        for (int j = 0; j < i; j++)
+       {
+        cout<<" ";
+       }
+       
+       cout<<endl;
+    }
+    
+
+}
 int main(){
 int testc;
 cin>>testc;
@@ -55,7 +102,8 @@ for (int i = 0; i < testc; i++)
 {
 int n;
 cin>>n;
-print8(n);
+print9(n);
+
 }
 
     return 0;
