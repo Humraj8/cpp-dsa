@@ -128,6 +128,42 @@ void print11(int n)
         cout << endl;
     }
 }
+void print12(int n){
+int space= 2*(n-1);
+for (int i = 1; i <= n; i++)
+{
+
+    //numbers
+    for (int j = 1; j <= i; j++)
+    {
+        cout<<j;
+    }
+
+
+    //spaces
+    //in place of 6-2*1 --- 2* (n-1)
+    //just after endl use space-=2.
+
+    for (int k = 1; k <= space; k++)
+    {
+        cout<<" ";
+    } 
+
+
+    //for numbers  
+    for (int l = i; l >= 1; l--)
+    {
+        cout<<l;
+    }
+    cout<<endl;
+    space=space-2;
+}
+
+
+
+}
+
+
 int main()
 {
     int testc;
@@ -136,7 +172,7 @@ int main()
     {
         int n;
         cin >> n;
-        print11(n);
+        print12(n);
     }
 
     return 0;
