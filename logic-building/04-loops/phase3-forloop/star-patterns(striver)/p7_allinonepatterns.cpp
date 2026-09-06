@@ -158,7 +158,6 @@ void print12(int n)
         space = space - 2;
     }
 }
-
 void print13(int n)
 {
     int number = 1;
@@ -172,7 +171,23 @@ void print13(int n)
         cout << endl;
     }
 }
+void print14(int n){
 
+for (int i = 0; i < n; i++)
+{
+   for (char ch='A'; ch <='A' + i; ch++)
+   {
+   cout<<ch<<" ";
+   
+   }
+   cout<<endl;
+}
+
+
+
+
+
+}
 int main()
 {
     int testc;
@@ -181,7 +196,7 @@ int main()
     {
         int n;
         cin >> n;
-        print13(n);
+        print14(n);
     }
 
     return 0;
