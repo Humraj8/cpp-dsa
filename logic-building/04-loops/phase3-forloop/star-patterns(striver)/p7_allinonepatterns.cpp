@@ -188,6 +188,21 @@ for (int i = 0; i < n; i++)
 
 
 }
+void print15(int n){
+for (int i = n; i >0; i--)
+{
+    for (char ch = 'A'; ch <= 'A' +(i-1) ; ch++)
+    {
+        cout<<ch<<" ";
+    }
+    cout<<endl;
+}
+
+
+
+
+    
+}
 int main()
 {
     int testc;
@@ -196,7 +211,7 @@ int main()
     {
         int n;
         cin >> n;
-        print14(n);
+        print15(n);
     }
 
     return 0;
