@@ -171,37 +171,41 @@ void print13(int n)
         cout << endl;
     }
 }
-void print14(int n){
-
-for (int i = 0; i < n; i++)
+void print14(int n)
 {
-   for (char ch='A'; ch <='A' + i; ch++)
-   {
-   cout<<ch<<" ";
-   
-   }
-   cout<<endl;
-}
 
-
-
-
-
-}
-void print15(int n){
-for (int i = n; i >0; i--)
-{
-    for (char ch = 'A'; ch <= 'A' +(i-1) ; ch++)
+    for (int i = 0; i < n; i++)
     {
-        cout<<ch<<" ";
+        for (char ch = 'A'; ch <= 'A' + i; ch++)
+        {
+            cout << ch << " ";
+        }
+        cout << endl;
     }
-    cout<<endl;
 }
+void print15(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        for (char ch = 'A'; ch <= 'A' + (n - i - 1); ch++)
+        {
+            cout << ch << " ";
+        }
+        cout << endl;
+    }
 
+    // another method of mine
+    /*
+    for (int i = n; i >0; i--)
+    {
+        for (char ch = 'A'; ch <= 'A' +(i-1) ; ch++)
+        {
+            cout<<ch<<" ";
+        }
+        cout<<endl;
+    }
 
-
-
-    
+    */
 }
 int main()
 {
