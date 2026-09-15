@@ -338,6 +338,48 @@ void print19(int n){
    }
     
 }
+void print20(int n){
+for (int i = 0; i <= 2*n -1; i++)
+{
+   for (int j = 0; j<=i; j++)
+   {
+    cout<<"*";
+   }
+
+   for (int k = 0; k< 2*n -2*i; k++)
+   {
+    cout<<" ";
+   }
+
+   for (int l = 0; l<=i; l++)
+   {
+    cout<<"*";
+   }
+
+   cout<<endl;
+}
+
+
+
+
+}
+void print21(int n){
+for (int i = 0; i < n; i++)
+{
+  for (int j = 0; j< n; j++)
+  {
+    if(i==0 || j==0 || i==n-1 || j==n-1){
+    
+    cout<<"*";
+    }
+    else cout<<" ";
+  }
+  cout<<endl;
+}
+
+
+
+}
 int main()
 {
     int testc;
@@ -346,7 +388,7 @@ int main()
     {
         int n;
         cin >> n;
-        print19(n);
+        print21(n);
     }
 
     return 0;
